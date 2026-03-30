@@ -28,6 +28,12 @@ module tb;
     hc.pb = 20;
     hp.displaycp():
     hc.displaycp();
-    
+
+    hc.cc = 30;
+    hc.cd = 40;
+    $display (" a = %0d b = %0d ", hp.pa, hp.pb);  // a = 1 b = 2 
+    $display (" a = %0d b = %0d c = %0d d = %0d", hc.pa, hc.pb, hc.cc, hc.cd); //  a = 10 b = 20 c = 30 d = 40
+
+//    ha.displaycc();  show error as in inheritance we cannot handle child property with parent handle class
   end
 endmodule 
