@@ -4,7 +4,7 @@ class cp;
   int pa;
   int pb;
   function void displaycp();
-    $display ( " pa = %0d pb = %0d", pa, pb);
+    $display ( " pa = %0d pb = %0d", pa, pb); 
   endfunction
 endclass
 class cc extends cp;
